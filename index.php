@@ -10,7 +10,7 @@
 </head>
     <body>
         <div class="logo w-100 h-25">
-            <img class="w-100 h-100" src="LogoCAP/PNG" alt="Logo CAP2019">
+            <img class="w-100 h-100" src="LogoCAP/png" alt="Logo CAP2019">
         </div>
         <div class="Informasi">
             <p>Silahkan masukkan data sesuai didalam nametag</p>
