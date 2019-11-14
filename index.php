@@ -13,7 +13,6 @@
             <?php 
                 $image_url='LogoCAP.PNG';
             ?>
-
             <img class="LogoCAP" src="<?php echo $image_url;?>">
         </div>
         <div class="Informasi">
