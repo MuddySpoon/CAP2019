@@ -19,14 +19,16 @@
         <div class="Informasi">
             <p>Silahkan masukkan data sesuai didalam nametag</p>
         </div>
-        <div class="InputData">
-            <div class="InputUsername">
-                <input type="text" id="Username" placeholder="Username">
-            </div>
-            <div class="InputNomorKelompok">
-                <input type="number" id="NomorKelompok" placeholder="Nomor Kelompok">
-            </div>
-        </div>
+            <form action="Main Game.html">
+                <div class="InputData">
+                    <div class="InputUsername">
+                        <input type="text" id="Username" placeholder="Username">
+                    </div>
+                    <div class="InputNomorKelompok">
+                        <input type="number" id="NomorKelompok" placeholder="Nomor Kelompok">
+                    </div>
+                </div>
+            </form>
         <div class="button">
             <button class="SignIn">
                 Sign In
