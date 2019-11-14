@@ -10,11 +10,7 @@
 </head>
     <body>
         <div class="logo w-100 h-25">
-            <?php 
-                $image_url='LogoCAP.PNG';
-            ?>
-
-            <img class="LogoCAP" src="<?php echo $image_url;?>">
+            <img class="LogoCAP" src="LogoCAP.png" alt="Logo CAP2019">
         </div>
         <div class="Informasi">
             <p>Silahkan masukkan data sesuai didalam nametag</p>
