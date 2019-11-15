@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 body {
-    background: url(Background.png);
+    background-image: url(Background.png);
     background-repeat: no-repeat;
     background-position-x: center center;
     background-size: 100%;
