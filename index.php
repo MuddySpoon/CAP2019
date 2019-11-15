@@ -50,7 +50,7 @@
             </div>
         </form>
         <div class="button">
-            <button href="Main Game.html" class="SignIn">
+            <button id="btn" onclick="submitClick()" class="SignIn">
                 Sign In
             </button>
         </div>
