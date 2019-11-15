@@ -5,10 +5,10 @@ function submitClick(){
     document.getElementById("GetGroupNumber").innerHTML=groupnumber;
 
     if(username != "" || groupnumber != 0 || groupnumber != ""){
-        window.location ="Main Game.html"
+        window.location.href="Main Game.html"
     }
     else{
-        window.alert("Username dan Nomor Kelompok tidak boleh kosong.")
+        window.alert("Username serta Nomor Kelompok tidak boleh kosong.")
     }
 }
 
