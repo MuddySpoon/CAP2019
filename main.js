@@ -5,7 +5,7 @@ function submitClick(){
     document.getElementById("GetGroupNumber").innerHTML=groupnumber;
 
     if(username != "" && groupnumber != 0 && groupnumber != ""){
-        
+        window.location ="Main Game.html"
     }
     else{
         window.alert("Username dan Nomor Kelompok tidak boleh kosong.")
