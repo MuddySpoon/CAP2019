@@ -50,7 +50,7 @@
             </div>
         </form>
         <div class="button">
-            <button class="SignIn">
+            <button href="Main Game.html" class="SignIn">
                 Sign In
             </button>
         </div>
