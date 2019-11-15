@@ -4,7 +4,7 @@ function submitClick(){
     var groupnumber = document.getElementById("NomorKelompok").value;
     document.getElementById("GetGroupNumber").innerHTML=groupnumber;
 
-    if(username != "" && groupnumber != 0 && groupnumber != ""){
+    if(username != "" || groupnumber != 0 || groupnumber != ""){
         window.location ="Main Game.html"
     }
     else{
