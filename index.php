@@ -7,6 +7,7 @@
     <title>Main Menu</title>
     <link rel="stylesheet" href="Main Menu.css">
     <link rel="stylesheet" href="bootstrap.css">
+    <script language="Javascript" type="text/javascript" src="main.js"></script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
