@@ -15,7 +15,6 @@ function submitClick(){
         alert("Perhatikan nomor kelompok anda!")
     }
     else{
-        window.alert("Username serta Nomor Kelompok tidak boleh kosong.")
     }
 }
 
