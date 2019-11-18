@@ -8,12 +8,13 @@ function submitClick(){
     if(groupnumber == ""){
         alert("Nomor kelompok harus diisi!");
     }
-    if(groupnumber == 0){
+    if(groupnumber == 0 || groupnumber > 20){
         alert("Perhatikan nomor kelompok anda!");
     }
     else{
-        document.getElementById("GetUsername").innerHTML = username;
-        document.getElementById("GetGroupNumber").innerHTML = groupnumber;
+        window.location.href("Main Game.html")
+        //document.getElementById("GetUsername").innerHTML = username;
+        //document.getElementById("GetGroupNumber").innerHTML = groupnumber;
     }
 }
 
