@@ -40,7 +40,7 @@
         <div class="Informasi">
             <p>Silahkan masukkan data sesuai didalam nametag</p>
         </div>
-        <form method="post" action="MainGame.html">
+        <form method="post" action="">
             <div class="InputData">
                 <div class="InputUsername">
                     <input type="text" id="Username" placeholder="Username" required>
