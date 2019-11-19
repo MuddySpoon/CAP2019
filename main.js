@@ -1,12 +1,6 @@
 var valUsername;
 var database = firebase.database();
-
-function writeUserData(){
-    firebase.database().ref('users/' + valUsername).set({
-        UserID: valUsername
-    });
-
-}
+var Username = document.getElementById("Username").value;
 
 function submitClick(){
     if(Username == null){
@@ -20,6 +14,12 @@ function submitClick(){
     }
 }
 
+function writeUserData(){
+    firebase.database().ref('users/' + valUsername).set({
+        UserID: valUsername
+    });
+
+}
 
 
  
