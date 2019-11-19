@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="button">
-                <input type="Submit" id="btn" class="SignIn" value="Sign In"></input>
+                <input type="Submit" id="btn" class="SignIn" value="Sign In" onClick="submitClick()"></input>
             </div>
         </form>
     </body>

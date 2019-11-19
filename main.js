@@ -1,4 +1,11 @@
 var valUsername;
+var database = firebase.database();
+
+function writeUserData(userID){
+    firebase.database().ref('users/' + userID).set({
+        UserID: userID
+    });
+}
 
 function submitClick(){
     if(Username == ""){
@@ -7,6 +14,8 @@ function submitClick(){
         
     }
     valUsername = document.getElementById("Username").value;
+    writeUserData(valUsername);
+    return false;
 }
 
 document.getElementById("getUsername").innerHTML = "Halo, " +valUsername;
