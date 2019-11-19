@@ -17,14 +17,6 @@ document.getElementById("getUsername").textContent = valUsername;
 //             alert("Username harus diisi!");
 //             return false;
 //         }
-//         if(valGroupnumber == ""){
-//             alert("Nomor kelompok harus diisi!");
-//             return false;
-//         }
-//         if(valGroupnumber == 0 || valGroupnumber > 20){
-//             alert("Perhatikan nomor kelompok anda!");
-//             return false;
-//         }
     
 // }
 
