@@ -21,7 +21,7 @@ function writeUserData(){
     firebase.database().ref('users/' + valUsername).set({
         UserID: valUsername
     });
-    localStorage.set("Username", Username);
+    localStorage.setItem("Username", Username);
 }
 
 
