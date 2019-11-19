@@ -19,7 +19,7 @@ function submitClick(){
     return false;
 }
 
-document.getElementById("getUsername").innerHTML = "Halo, " +valUsername;
+// document.getElementById("getUsername").innerHTML = "Halo, " +valUsername;
 // function submitClick(){
 //     var valUsername = document.getElementById("Username").value;
 //     var valGroupnumber = document.getElementById("NomorKelompok").value;
