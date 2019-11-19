@@ -9,7 +9,7 @@ function writeUserData(){
 }
 
 function submitClick(){
-    if(Username == ""){
+    if(Username == null){
         alert("Username harus diisi!");
         return false;
         
