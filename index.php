@@ -11,7 +11,6 @@
     <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase.js'></script>
     <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-auth.js"></script>
     <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js'></script>
-    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
 
     <script>
     // Your web app's Firebase configuration
