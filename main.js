@@ -15,10 +15,11 @@ function submitClick(){
             return false;
         }
     
-
-    document.getElementById("getUsername").textContent = username;
-
 }
+var getUsername = document.getElementById("username");
+getUsername.innerHTML = username;
+//document.getElementById("getUsername").textContent = username;
+
 
 
  
