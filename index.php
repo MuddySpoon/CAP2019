@@ -43,10 +43,10 @@
         <form method="post" action="MainGame.html">
             <div class="InputData">
                 <div class="InputUsername">
-                    <input type="text" id="Username" placeholder="Username" require>
+                    <input type="text" id="Username" placeholder="Username" required>
                 </div>
                 <div class="InputNomorKelompok">
-                    <input type="number" id="NomorKelompok" placeholder="Nomor Kelompok" require>
+                    <input type="number" id="NomorKelompok" placeholder="Nomor Kelompok" required>
                 </div>
             </div>
         
