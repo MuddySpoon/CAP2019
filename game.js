@@ -1,8 +1,11 @@
 var database = firebase.database;
 var getUserID = document.getElementById("getUserID");
-
-var getUserIDRef = firebase.database().ref().child("users")
-
+getUserID.innerHTML = getUserID.innerHTML+" "+localStorage.getItem("Username");
 
 
-document.getElementById("getUserID").innerHTML = firebase.database()     ;
+// var firebasegetUserID = firebase.database().ref().child("users");
+
+// firebasegetUserID.on('value',  function())
+
+
+//document.getElementById("getUserID").innerHTML = firebase.database()     ;
