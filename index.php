@@ -36,7 +36,7 @@
         <div class="Informasi">
             <p>Silahkan masukkan data sesuai didalam nametag</p>
         </div>
-        <form method="post" action="/action_page.php">
+        <form method="post" >
             <div class="InputData">
                 <div class="InputUsername">
                     <input type="text" id="Username" placeholder="Username">
