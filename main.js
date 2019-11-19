@@ -10,11 +10,11 @@ function submitClick(){
         return false;
     }
     else{
-        console.log("adadad");
         valUsername = document.getElementById("Username").value;
         writeUserData(valUsername);
-        window.location.replace = ("https://cappppp.herokuapp.com/MainGame.html");
     }
+
+    window.location.replace = ("https://cappppp.herokuapp.com/MainGame.html");
 }
 
 function writeUserData(){
