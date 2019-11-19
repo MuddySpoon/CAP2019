@@ -1,10 +1,11 @@
-var valUsername = document.getElementById("Username").value;
 
 function submitClick(){
     if(Username == ""){
         alert("Username harus diisi!");
         return false;
+        
     }
+    var valUsername = document.getElementById("Username").value;
 }
 
 document.getElementById("getUsername").textContent = "Halo, " +valUsername;
