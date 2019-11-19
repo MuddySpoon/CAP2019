@@ -1,4 +1,4 @@
-var valUsername;
+var valUsername = document.getElementById("Username").value;
 
 function submitClick(){
     if(Username == ""){
@@ -6,7 +6,6 @@ function submitClick(){
         return false;
     }
 }
-var valUsername = document.getElementById("Username").value;
 
 document.getElementById("getUsername").textContent = valUsername;
 // function submitClick(){
