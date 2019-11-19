@@ -39,7 +39,7 @@
         <form method="post">
             <div class="InputData">
                 <div class="InputUsername">
-                    <input type="text" id="Username" placeholder="Username" required>
+                    <input type="text" id="Username" placeholder="Username">
                 </div>
             </div>
             <div class="button">
