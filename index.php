@@ -51,9 +51,7 @@
             </div>
         
             <div class="button">
-                <input type="submit" id="btn" onclick="submitClick()" class="SignIn">
-                    Sign In
-                </input>
+                <input type="Submit" id="btn" onclick="submitClick()" class="SignIn" value="Sign In"></input>
             </div>
         </form>
     </body>
