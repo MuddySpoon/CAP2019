@@ -10,6 +10,7 @@ function submitClick(){
         return false;
     }
     else{
+        console.log("adadad");
         valUsername = document.getElementById("Username").value;
         writeUserData(valUsername);
         window.location.href = ("MainGame.html")
