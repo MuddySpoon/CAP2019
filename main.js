@@ -1,26 +1,23 @@
-var username;
-var groupnumber;
-
 function submitClick(){
-    username = document.getElementById("Username").value;
-    groupnumber = document.getElementById("NomorKelompok").value;
+    var valUsername = document.getElementById("Username").value;
+    var valGroupnumber = document.getElementById("NomorKelompok").value;
     
-        if(username == ""){
+        if(valUsername == ""){
             alert("Username harus diisi!");
             return false;
         }
-        if(groupnumber == ""){
+        if(valGroupnumber == ""){
             alert("Nomor kelompok harus diisi!");
             return false;
         }
-        if(groupnumber == 0 || groupnumber > 20){
+        if(valGroupnumber == 0 || valGroupnumber > 20){
             alert("Perhatikan nomor kelompok anda!");
             return false;
         }
     
 }
 
-document.getElementById("getUsername").textContent = username;
+document.getElementById("getUsername").textContent = valUsername;
 
 
 
