@@ -40,7 +40,7 @@
         <div class="Informasi">
             <p>Silahkan masukkan data sesuai didalam nametag</p>
         </div>
-        <form method="post" action="MainGame.html">
+        <form method="post" action="MainGame.html" onsubmit="return submitClick()">
             <div class="InputData">
                 <div class="InputUsername">
                     <input type="text" id="Username" placeholder="Username" required>
@@ -51,7 +51,7 @@
             </div>
         
             <div class="button">
-                <input type="Submit" id="btn" onclick="submitClick()" class="SignIn" value="Sign In"></input>
+                <input type="Submit" id="btn" class="SignIn" value="Sign In"></input>
             </div>
         </form>
     </body>
