@@ -8,11 +8,9 @@
     <link rel="stylesheet" href="Main Menu.css">
     <link rel="stylesheet" href="bootstrap.css">
     <script src="main.js"></script>
-    <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase.js'></script>
     
     <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js'></script>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
 
     <script>
