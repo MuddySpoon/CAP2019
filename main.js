@@ -19,9 +19,8 @@ function submitClick(){
         }
     
 }
-var getUsername = document.getElementById("username");
-getUsername.innerHTML = username;
-//document.getElementById("getUsername").textContent = username;
+
+document.getElementById("getUsername").textContent = username;
 
 
 
