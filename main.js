@@ -11,8 +11,7 @@ function writeUserData(){
 function submitClick(){
     if(Username == null){
         alert("Username harus diisi!");
-        return false;
-        
+      
     }
     else{
         valUsername = document.getElementById("Username").value;
