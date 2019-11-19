@@ -18,7 +18,6 @@ function submitClick(){
         valUsername = document.getElementById("Username").value;
         writeUserData(valUsername);
         window.location.href = ("https://cappppp.herokuapp.com/MainGame.html")
-        return false;
     }
 }
 
