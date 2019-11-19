@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="bootstrap.css">
     <script language="Javascript" type="text/javascript" src="main.js"></script>
     <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase.js'></script>
-    <link rel='stylesheet' type='text/css' href='/resources/tutorial/css/example.css'>
+    
+    <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js'></script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
