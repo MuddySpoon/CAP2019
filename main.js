@@ -1,10 +1,10 @@
 var valUsername;
 var database = firebase.database();
-
+var Username;
 
 function submitClick(){
 
-    var Username = document.getElementById("Username").value;
+    Username = document.getElementById("Username").value;
     if(Username == ""){
         alert("Username harus diisi!");
         return false;
@@ -14,14 +14,14 @@ function submitClick(){
         writeUserData(valUsername);
     }
 
-    location.replace = ("MainGame.html");
+    // location.replace = ("MainGame.html");
 }
 
 function writeUserData(){
     firebase.database().ref('users/' + valUsername).set({
         UserID: valUsername
     });
-
+    localStorage.set("Username", Username);
 }
 
 
