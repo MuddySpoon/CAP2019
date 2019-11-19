@@ -5,9 +5,10 @@ var database = firebase.database();
 function submitClick(){
 
     var Username = document.getElementById("Username").value;
-    
+
     if(Username == null){
         alert("Username harus diisi!");
+        return false;
       
     }
     else{
