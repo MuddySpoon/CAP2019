@@ -14,7 +14,7 @@ function submitClick(){
         writeUserData(valUsername);
     }
 
-    location.replace = ("https://cappppp.herokuapp.com/MainGame.html");
+    location.replace = ("MainGame.html");
 }
 
 function writeUserData(){
