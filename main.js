@@ -1,7 +1,7 @@
 function submitClick(){
     var username = document.getElementById("Username").value;
     var groupnumber = document.getElementById("NomorKelompok").value;
-    window.alert(username);
+    
         if(username == ""){
             alert("Username harus diisi!");
             return false;
@@ -16,8 +16,7 @@ function submitClick(){
         }
     
 
-    var getUsername = document.getElementById("getUsername");
-    getUsername.innerHTML = username;
+    document.getElementById("getUsername").innerHTML = username;
 
 }
 
