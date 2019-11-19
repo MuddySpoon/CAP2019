@@ -1,8 +1,11 @@
 var valUsername;
 var database = firebase.database();
-var Username = document.getElementById("Username").value;
+
 
 function submitClick(){
+
+    var Username = document.getElementById("Username").value;
+    
     if(Username == null){
         alert("Username harus diisi!");
       
