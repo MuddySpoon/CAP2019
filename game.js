@@ -1,5 +1,8 @@
 var database = firebase.database;
-var refUserID = database.ref('UserID');
+var getUserID = document.getElementById("getUserID");
+
+var getUserIDRef = firebase.database().ref().child("users")
 
 
-document.getElementById("getUserID").innerHTML = firebase.database ;
+
+document.getElementById("getUserID").innerHTML = firebase.database()     ;

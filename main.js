@@ -2,7 +2,7 @@ var valUsername;
 var database = firebase.database();
 
 function writeUserData(){
-    firebase.database().ref('users/' + valUsername).set({
+    firebase.database().ref('users/').set({
         UserID: valUsername
     });
 }
