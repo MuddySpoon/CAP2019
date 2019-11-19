@@ -17,10 +17,12 @@ function submitClick(){
         //document.getElementById("GetUsername").innerHTML = username;
         //document.getElementById("GetGroupNumber").innerHTML = groupnumber;
     }
+
+    var getUsername = document.getElementById("getUsername");
+    getUsername.innerHTML = username;
+
 }
 
-var getUsername = document.getElementById("getUsername");
-getUsername.innerHTML = username;
 
  
 
