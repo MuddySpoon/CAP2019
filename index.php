@@ -39,7 +39,7 @@
         <form method="post" action="MainGame.html">
             <div class="InputData">
                 <div class="InputUsername">
-                    <input type="text" id="Username" placeholder="Username" required>
+                    <input type="text" id="Username" placeholder="Username" style="text-transform: uppercase" required>
                 </div>
             </div>
             <div class="button">
