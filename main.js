@@ -10,7 +10,7 @@ function submitClick(){
         return false;
     }
     else{
-        valUsername = document.getElementById("Username").value;
+        valUsername = Username;
         writeUserData(valUsername);
     }
 
