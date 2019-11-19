@@ -12,7 +12,6 @@ function submitClick(){
         alert("Perhatikan nomor kelompok anda!");
     }
     else{
-        window.location.href("MainGame.html")
         //document.getElementById("GetUsername").innerHTML = username;
         //document.getElementById("GetGroupNumber").innerHTML = groupnumber;
     }
