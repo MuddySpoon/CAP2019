@@ -7,7 +7,7 @@ function submitClick(){
     }
 }
 
-document.getElementById("getUsername").textContent = valUsername;
+document.getElementById("getUsername").textContent = "Halo, " +valUsername;
 // function submitClick(){
 //     var valUsername = document.getElementById("Username").value;
 //     var valGroupnumber = document.getElementById("NomorKelompok").value;
