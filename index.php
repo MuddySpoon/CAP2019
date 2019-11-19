@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="Main Menu.css">
     <link rel="stylesheet" href="bootstrap.css">
     <script language="Javascript" type="text/javascript" src="main.js"></script>
-    <script src='https://cdn.firebase.com/js/client/5.9.1/firebase.js'></script>
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase.js'></script>
     <link rel='stylesheet' type='text/css' href='/resources/tutorial/css/example.css'>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
