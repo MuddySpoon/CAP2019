@@ -7,7 +7,25 @@
     <title>Main Game</title>
     <link rel="stylesheet" href="Main Game.css">
     <link rel="stylesheet" href="bootstrap.css">
-    <script language="Javascript" type="text/javascript" src="main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+    <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js'></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDg15qeT7tEkX1lJXK7iYlbru7o9WNWY6Y",
+        authDomain: "cap-2019-832ba.firebaseapp.com",
+        databaseURL: "https://cap-2019-832ba.firebaseio.com",
+        projectId: "cap-2019-832ba",
+        storageBucket: "cap-2019-832ba.appspot.com",
+        messagingSenderId: "77391295035",
+        appId: "1:77391295035:web:dab001ddfc1c5e07a2e21e",
+        measurementId: "G-C991JYDZYE"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="game.js"></script>
 </head>
 <body>
     <div class="logo w-100 h-25">
@@ -15,7 +33,7 @@
     </div>
     <div class="text">
         <div class="Greetings">
-            <p id="getUsername"></p>
+            <p>Halo, <span id="getUserID"></span></p>
         </div>
         <div class="IsiKode">
             <p>Silahkan mengisi kode wahana yang tertera pada kertas soal</p>
@@ -34,6 +52,5 @@
             Submit
         </button>
     </div>
-  
 </body>
 </html>
