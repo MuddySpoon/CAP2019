@@ -1,6 +1,9 @@
+var username;
+var groupnumber;
+
 function submitClick(){
-    var username = document.getElementById("Username").value;
-    var groupnumber = document.getElementById("NomorKelompok").value;
+    username = document.getElementById("Username").value;
+    groupnumber = document.getElementById("NomorKelompok").value;
     
         if(username == ""){
             alert("Username harus diisi!");
