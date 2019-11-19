@@ -2,9 +2,10 @@ var valUsername;
 var database = firebase.database();
 
 function writeUserData(){
-    firebase.database().ref('users/').set({
+    firebase.database().ref('users/' + valUsername).set({
         UserID: valUsername
     });
+
 }
 
 function submitClick(){
@@ -15,6 +16,7 @@ function submitClick(){
     }
     valUsername = document.getElementById("Username").value;
     writeUserData(valUsername);
+    window.location.href("https://cappppp.herokuapp.com/MainGame.html")
     return false;
 }
 
