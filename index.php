@@ -45,11 +45,7 @@
                 <div class="InputUsername">
                     <input type="text" id="Username" placeholder="Username" required>
                 </div>
-                <div class="InputNomorKelompok">
-                    <input type="number" id="NomorKelompok" placeholder="Nomor Kelompok" required>
-                </div>
             </div>
-        
             <div class="button">
                 <input type="Submit" id="btn" class="SignIn" value="Sign In"></input>
             </div>
