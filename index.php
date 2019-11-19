@@ -7,7 +7,6 @@
     <title>Main Menu</title>
     <link rel="stylesheet" href="Main Menu.css">
     <link rel="stylesheet" href="bootstrap.css">
-    <script src="main.js"></script>
     
     <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
     <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js'></script>
@@ -27,6 +26,8 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     </script>
+    
+    <script src="main.js"></script>
 </head>
     <body>
         <div class="logo w-100 h-25">
