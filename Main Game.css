@@ -30,22 +30,37 @@ body {
     text-align: right;
     color: #0762ae;
 }
-
-.text .IsiKode {
-    display: flex;
-    justify-content: center;
-    padding-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Comic Sans MS;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 150%;
-    text-align: center;
-    color: #0762ae;
+@media screen and (max-width:600px){
+    .text .IsiKode {
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Ebrima;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%;
+        text-align: center;
+        color: #0762ae;
+    }
 }
-
-.text .Cooldown {
+@media screen and (min-width:601px){
+    .text .IsiKode {
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Ebrima;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 150%;
+        text-align: center;
+        color: #0762ae;
+    }
+}
+/* .text .Cooldown {
     display: flex;
     justify-content: center;
     padding-top: 3%;
@@ -57,16 +72,7 @@ body {
     font-size: 100%;
     text-align: center;
     color: #E72727;
-}
-
-.InputData ::placeholder{
-    color:darkslategrey;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 112.5%;
-    text-align: center;
-}
+} */
 
 .InputData ::selection{
     background: darkslategray;
@@ -80,7 +86,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2CADE3;
+    background: -webkit-linear-gradient(270deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
     padding: 2.5% 0;
     margin-top: 5%;
     margin-left: auto;
