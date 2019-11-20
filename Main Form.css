@@ -13,20 +13,21 @@ body {
 }
 .text {
     margin: 0 5%;
+    margin-top: 50%;
 }
 
 .text .Greetings {
-    display: flex;
-    justify-content: center;
+    display: inline;
+    justify-content: right;
     padding-top: 3%;
     margin-left: auto;
     margin-right: auto;
-    font-family: Comic Sans MS;
+    font-family: Ebrima;
     font-style: normal;
     font-weight: normal;
     font-size: 150%;
-    text-align: center;
-    color: #FFF3F3;
+    text-align: right;
+    color: #0762ae;
 }
 
 .Wahana {

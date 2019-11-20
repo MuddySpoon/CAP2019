@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main Form</title>
+    <link rel="stylesheet" href="Main Form.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+    <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js'></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyDg15qeT7tEkX1lJXK7iYlbru7o9WNWY6Y",
+        authDomain: "cap-2019-832ba.firebaseapp.com",
+        databaseURL: "https://cap-2019-832ba.firebaseio.com",
+        projectId: "cap-2019-832ba",
+        storageBucket: "cap-2019-832ba.appspot.com",
+        messagingSenderId: "77391295035",
+        appId: "1:77391295035:web:dab001ddfc1c5e07a2e21e",
+        measurementId: "G-C991JYDZYE"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+    
+    <div class="text">
+        <div class="Greetings">
+            <p>Halo, +""</p>
+        </div>
+    </div>
+    <div class="Wahana">
+        <div class="FotoWahana">
+            <img src="TestLogoWahana.PNG" alt="Foto Wahana">
+        </div>
+        <div class="TextWahana">
+            <div class="NamaWahana">
+                    <p>Pacific Rim</p>
+            </div>
+            <div class="InfoWahana">
+                <p>Pertama kali di dunia, wahana yang memadukan teknologi tercanggih 
+                antara walkthrough & dark side, serta imersif 4 dimensi. Storm Garuda,
+                Jaeger milik Indonesia, akan mengajak Anda membasmi Kaiju demi 
+                melindungi Indonesia.</p>
+            </div>
+         </div>  
+    </div>
+    <div class="JawabanWahana">
+        Jawaban
+        <div>
+            <label class="Jawaban" for="JawabanA">
+                <input type="radio" name="Jawaban" class="Jawaban" checked>A
+            </label>
+        </div>
+        <div>
+            <label class="Jawaban" for="JawabanB">
+                <input type="radio" name="Jawaban" class="Jawaban">B
+            </label>
+        </div>
+        <div>
+            <label class="Jawaban" for="JawabanC">
+                <input type="radio" name="Jawaban" class="Jawaban">C
+            </label>
+        </div>
+    </div>
+    <div class="button">
+        <button class="Submit">
+            Submit
+        </button>
+    </div>
+
+</body>
+</html>
