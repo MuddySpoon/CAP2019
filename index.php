@@ -30,17 +30,17 @@
     <script src="main.js"></script>
 </head>
     <body>
-        <div class="logo w-100 h-25">
-            <img class="LogoCAP" src="LogoCAP.png">
-        </div>
-        <div class="Informasi">
-            <p>Silahkan masukkan data sesuai didalam nametag</p>
-        </div>
-        <form method="post" action="MainGame.html">
+        <form method="post" class="form">
+            <div class="Informasi">
+                <p>MASUKKAN NOMOR ID</p>
+            </div>
             <div class="InputData">
                 <div class="InputUsername">
                     <input type="text" id="Username">
                 </div>
+            </div>
+            <div class="InformasiTambahan">
+                <p>*LIHAT NOMOR ID PADA NAMETAG KAMU YA</p>
             </div>
             <div class="button">
                 <input type="Submit" id="btn" class="SignIn" value="REGISTER" onClick="submitClick()"></input>
