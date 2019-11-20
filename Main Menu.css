@@ -17,7 +17,7 @@ body {
     .Informasi {
         display: flex;
         justify-content: center;
-        padding-top: 30%;
+        margin-top: 30%;
         margin-left: auto;
         margin-right: auto;
         font-family: Ebrima;
@@ -46,7 +46,7 @@ body {
     .Informasi {
         display: flex;
         justify-content: center;
-        padding-top: 30%;
+        margin-top: 30%;
         margin-left: auto;
         margin-right: auto;
         font-family: Ebrima;
@@ -88,7 +88,7 @@ body {
     align-items: center;
     background: -webkit-linear-gradient(90deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
     padding: 2.5% 0;
-    margin-top: 18%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
 
