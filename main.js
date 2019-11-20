@@ -28,7 +28,6 @@ function submitClick(){
         var m = addZero(d.getMinutes());
         var s = addZero(d.getSeconds());
         valDate = h + ":" + m + ":" + s;
-        console.log(valDate);
         writeUserData(valUsername,valDate);
     }
 
