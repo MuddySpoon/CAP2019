@@ -7,7 +7,7 @@ var upperUsername;
 function submitClick(){
 
     Username = document.getElementById("Username").value;
-    valDate = date.getTime();
+    valDate = Date().getTime();
     console.log("valDate");
 
     upperUsername = Username.toUpperCase();
