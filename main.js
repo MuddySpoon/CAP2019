@@ -22,23 +22,24 @@ function submitClick(){
     }
     else{
         valUsername = upperUsername;
-        writeUserData(valUsername);
 
         var d = new Date();
         var h = addZero(d.getHours());
         var m = addZero(d.getMinutes());
         var s = addZero(d.getSeconds());
         valDate = h + ":" + m + ":" + s;
+        writeUserData(valUsername,username);
         console.log(valDate);
     }
 
 
 }
 
-function writeUserData(username){
+function writeUserData(username, date){
     firebase.database().ref('users/' + username).set({
-        UserID: username,
-        UserTime: valDate
+        UserID: username
+        // ,
+        // UserTime: date
     });
     localStorage.setItem("Username", username);
 }
