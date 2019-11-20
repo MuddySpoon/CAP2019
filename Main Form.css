@@ -63,7 +63,6 @@ body {
 .Wahana {
     padding-right: 5%;
     padding-left: 5%;
-    padding-top: 10%;
     padding-bottom: 5%;
     display: inline-block;
     width: 100%;
@@ -131,7 +130,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7.5%;
 }
 
 
