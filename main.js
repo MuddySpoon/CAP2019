@@ -12,9 +12,10 @@ function submitClick(){
     else{
         valUsername = Username;
         writeUserData(valUsername);
+
+        window.location = ("MainGame.html");
     }
 
-    // location.replace = ("MainGame.html");
 }
 
 function writeUserData(){
