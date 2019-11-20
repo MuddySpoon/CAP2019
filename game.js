@@ -1,11 +1,11 @@
 var database = firebase.database;
 var getUserID = document.getElementById("getUserID");
-console.log(getUserID);
-getUserID.innerHTML = localStorage.getItem("Username");
+// console.log(getUserID);
+// getUserID.innerHTML = localStorage.getItem("Username");
 
 
-// var firebasegetUserID = firebase.database().ref().child("users");
-
+var firebasegetUserID = firebase.database().ref().child("users");
+console.log(firebasegetUserID);
 // firebasegetUserID.on('value',  function())
 
 
