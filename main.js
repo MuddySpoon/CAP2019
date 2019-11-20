@@ -5,6 +5,8 @@ var Username;
 function submitClick(){
 
     Username = document.getElementById("Username").value;
+
+    Username.value = string.toUpperCase();
     if(Username == ""){
         alert("Username harus diisi!");
         return false;

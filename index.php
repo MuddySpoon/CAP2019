@@ -30,13 +30,13 @@
     <script src="main.js"></script>
 </head>
     <body>
-        <form method="post" class="form">
+        <form method="post" class="form" action="MainGame.html">
             <div class="Informasi">
                 <p>MASUKKAN NOMOR ID</p>
             </div>
             <div class="InputData">
                 <div class="InputUsername">
-                    <input type="text" id="Username">
+                    <input type="text" id="Username" require>
                 </div>
             </div>
             <div class="InformasiTambahan">
