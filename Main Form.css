@@ -61,17 +61,18 @@ body {
     }
 }
 .Wahana {
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 5%;
     display: inline-block;
+    width: 100%;
 }
 
 .Wahana .FotoWahana{
     width: 50%;
     height: auto;
-    float: center;
+    float: left;
 }
 .Wahana .JawabanWahana{
     width: 50%;
@@ -100,7 +101,7 @@ body {
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    color: #FFF3F3;
+    color: #0762ae;
     font-size: 100%;
     align-items: center;
     justify-content: center;
@@ -109,8 +110,8 @@ body {
 }
 
 .JawabanWahana .Jawaban{
-    display: inline;
-    color: #FFF3F3; 
+    display: block;
+    color: #0762ae; 
     padding-left: 5%;
     text-align: center;
 }
