@@ -1,7 +1,15 @@
 var valUsername;
+var valDate;
 var database = firebase.database();
 var Username;
 var upperUsername;
+
+function addZero(i) {
+    if (i < 10) {
+      i = "0" + i;
+    }
+    return i;
+}
 
 function submitClick(){
 
@@ -15,9 +23,16 @@ function submitClick(){
     else{
         valUsername = upperUsername;
         writeUserData(valUsername);
+
+        var d = new Date();
+        var h = addZero(d.getHours());
+        var m = addZero(d.getMinutes());
+        var s = addZero(d.getSeconds());
+        valDate = h + ":" + m + ":" + s;
+        console.log("valDate");
     }
 
-    
+
 }
 
 function writeUserData(){
