@@ -1,5 +1,4 @@
 var valUsername;
-var valDate;
 var database = firebase.database();
 var Username;
 var upperUsername;
@@ -7,10 +6,8 @@ var upperUsername;
 function submitClick(){
 
     Username = document.getElementById("Username").value;
-    valDate = Date().getTime();
-    console.log("valDate");
-
     upperUsername = Username.toUpperCase();
+
     if(Username == ""){
         alert("Username harus diisi!");
         return false;
@@ -20,6 +17,7 @@ function submitClick(){
         writeUserData(valUsername);
     }
 
+    
 }
 
 function writeUserData(){
