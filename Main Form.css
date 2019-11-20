@@ -30,6 +30,36 @@ body {
     color: #0762ae;
 }
 
+@media screen and (max-width:600px){
+    .text .informasi {
+        display: flex;
+        justify-content: center;
+        padding-top: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Ebrima;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 100%;
+        text-align: center;
+        color: #0762ae;
+    }
+}
+@media screen and (min-width:601px){
+    .text .informasi {
+        display: flex;
+        justify-content: center;
+        padding-top: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Ebrima;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 150%;
+        text-align: center;
+        color: #0762ae;
+    }
+}
 .Wahana {
     margin-right: 5%;
     margin-left: 5%;
@@ -76,9 +106,7 @@ body {
         font-size: 150%;
     }
     
-    .Wahana .TextWahana .InfoWahana{
-        font-size: 80%;
-    }
+  
 
 }
 @media screen and (min-width: 601px){
@@ -88,9 +116,7 @@ body {
         font-size: 225%;
     }
     
-    .Wahana .TextWahana .InfoWahana{
-        font-size: 120%;
-    }
+   
 
 }
 .JawabanWahana{
