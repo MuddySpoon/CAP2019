@@ -18,7 +18,6 @@ body {
 
 .text .Greetings {
     display: inline;
-    justify-content: right;
     padding-top: 3%;
     margin-left: auto;
     margin-right: auto;
@@ -26,8 +25,10 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 150%;
-    text-align: right;
     color: #0762ae;
+}
+.text .Greetings .GreetingsText {
+    text-align: right   ;
 }
 
 @media screen and (max-width:600px){
@@ -123,6 +124,7 @@ body {
 .JawabanWahana .Jawaban input{
     display: inline-block;
     margin: 0 0;
+    margin-right: 5px;
 }
 
 
