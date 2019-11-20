@@ -118,6 +118,7 @@ body {
     justify-content: center;
     align-items: center;
     background: -webkit-linear-gradient(270deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+    margin-top: 3%;
     padding: 2.5% 0;
     margin-left: auto;
     margin-right: auto;
