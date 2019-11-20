@@ -28,7 +28,7 @@ function submitClick(){
         var m = addZero(d.getMinutes());
         var s = addZero(d.getSeconds());
         valDate = h + ":" + m + ":" + s;
-        console.log(valUsername);
+        console.log(valDate);
         writeUserData(valUsername,valDate);
     }
 
@@ -37,9 +37,8 @@ function submitClick(){
 
 function writeUserData(username, date){
     firebase.database().ref('users/' + username).set({
-        UserID: username
-        // ,
-        // UserTime: date
+        UserID: username,
+        UserTime: date
     });
     localStorage.setItem("Username", username);
 }
