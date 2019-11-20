@@ -29,19 +29,18 @@ function submitClick(){
         var m = addZero(d.getMinutes());
         var s = addZero(d.getSeconds());
         valDate = h + ":" + m + ":" + s;
-        console.log("valDate");
+        console.log(valDate);
     }
 
 
 }
 
-function writeUserData(){
-    // firebase.database().ref('users/' + valUsername).set({
-    //     UserID: valUsername,
-    //     UserTime: valDate
-    // });
-    // localStorage.setItem("Username", Username);
-    console.log("writess");
+function writeUserData(username){
+    firebase.database().ref('users/' + username).set({
+        UserID: username,
+        UserTime: valDate
+    });
+    localStorage.setItem("Username", username);
 }
 
 
