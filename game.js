@@ -4,7 +4,7 @@ var getUserID = document.getElementById("getUserID");
 // getUserID.innerHTML = localStorage.getItem("Username");
 
 
-var firebasegetUserID = firebase.database().ref(valUsername);
+var firebasegetUserID = firebase.database().ref('users/' + username);
 console.log(firebasegetUserID);
 // firebasegetUserID.on('value',  function())
 
