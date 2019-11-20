@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(80deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+    background: -webkit-linear-gradient(80deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
     padding: 2.5% 0;
     margin-top: 18%;
     margin-left: auto;
@@ -76,8 +76,8 @@ body {
 
 @media screen and (max-width: 600px){
     .button .SignIn {
-        background: linear-gradient(97deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
-        width: 70px;
+        background: -webkit-linear-gradient(97deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+        width: 140px;
         border-style: none;
         height: 40px;
         font-family: Roboto;
@@ -89,8 +89,8 @@ body {
 
 @media screen and (min-width: 601px){
     .button .SignIn {
-        background: linear-gradient(97deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
-        width: 140px;
+        background: -webkit-linear-gradient(97deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+        width: 280px;
         border-style: none;
         height: 80px;    
         font-family: Roboto;
