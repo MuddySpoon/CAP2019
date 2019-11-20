@@ -41,7 +41,7 @@ function writeUserData(){
     //     UserTime: valDate
     // });
     // localStorage.setItem("Username", Username);
-    
+    console.log("writess");
 }
 
 
