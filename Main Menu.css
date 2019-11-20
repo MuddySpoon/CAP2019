@@ -32,14 +32,7 @@ body {
     color: #FFF3F3;
 }
 
-.InputData ::placeholder{
-    color:darkslategrey;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 112.5%;
-    text-align: center;
-}
+
 
 .InputData ::selection{
     background: darkslategray;
@@ -53,7 +46,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2CADE3;
+    background: rgb(7,98,174);
+    background: linear-gradient(80deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
     padding: 2.5% 0;
     margin-top: 18%;
     margin-left: auto;
