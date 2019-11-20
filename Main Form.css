@@ -141,8 +141,9 @@ body {
 
 @media screen and (max-width: 600px){
     .button .Submit {
-        background-color: #5cb4e5;
-        width: 70px;
+        background: -webkit-linear-gradient(270deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+        color: #FFF3F3;
+        width: 140px;
         border-style: none;
         height: 40px;
         font-family: Roboto;
@@ -155,8 +156,9 @@ body {
 
 @media screen and (min-width: 601px){
     .button .Submit {
-        background-color: #5cb4e5;
-        width: 140px;
+        background: -webkit-linear-gradient(270deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+        color: #FFF3F3;
+        width: 280px;
         border-style: none;
         height: 80px;    
         font-family: Roboto;
