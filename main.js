@@ -35,10 +35,14 @@ function submitClick(){
 }
 
 function writeUserData(username, date){
+    // var firebaseref = firebase.database().ref
+
     firebase.database().ref('users/' + username).set({
         UserID: username,
         UserTime: date
     });
+
+
     localStorage.setItem("Username", username);
 }
 
