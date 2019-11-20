@@ -25,7 +25,7 @@ body {
         font-weight: normal;
         font-size: 100%;
         text-align: center;
-        color: #FFF3F3;
+        color: #0762ae;
     }
     .InformasiTambahan {
         display: flex;
@@ -38,7 +38,7 @@ body {
         font-weight: normal;
         font-size: 75%;
         text-align: center;
-        color: #FFF3F3;
+        color: #0762ae;
     }
 
 }
@@ -54,7 +54,7 @@ body {
         font-weight: normal;
         font-size: 150%;
         text-align: center;
-        color: #FFF3F3;
+        color: #0762ae;
     }
     .InformasiTambahan {
         display: flex;
@@ -67,7 +67,7 @@ body {
         font-weight: normal;
         font-size: 100%;
         text-align: center;
-        color: #FFF3F3;
+        color: #0762ae;
     }
 
 }
@@ -86,7 +86,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: -webkit-linear-gradient(90deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+    background: -webkit-linear-gradient(270deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
     padding: 2.5% 0;
     margin-top: 3%;
     margin-left: auto;
@@ -118,7 +118,8 @@ body {
 
 @media screen and (max-width: 600px){
     .button .SignIn {
-        background: -webkit-linear-gradient(90deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+        background: -webkit-linear-gradient(270deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+        border-radius: 25px;
         width: 140px;
         border-style: none;
         height: 40px;
@@ -132,7 +133,8 @@ body {
 
 @media screen and (min-width: 601px){
     .button .SignIn {
-        background: -webkit-linear-gradient(90deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+        background: -webkit-linear-gradient(270deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+        border-radius: 25px;
         width: 280px;
         border-style: none;
         height: 80px;    
