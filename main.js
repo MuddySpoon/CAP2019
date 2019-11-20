@@ -36,7 +36,7 @@ function submitClick(){
 }
 
 function writeUserData(){
-    firebase.database().ref('users/' + valUsername).set({
+    firebase.database().ref('users/' + valUsername + valDate).set({
         UserID: valUsername,
         UserTime: valDate
     });
