@@ -42,7 +42,7 @@ body {
         font-weight: normal;
         font-size: 100%;
         text-align: center;
-        color: #0762ae;
+        color: #c64b4b
     }
 }
 @media screen and (min-width:601px){
@@ -57,7 +57,7 @@ body {
         font-weight: normal;
         font-size: 150%;
         text-align: center;
-        color: #0762ae;
+        color: #c64b4b;
     }
 }
 .Wahana {
@@ -71,7 +71,12 @@ body {
 .Wahana .FotoWahana{
     width: 50%;
     height: auto;
-    float: left;
+    float: center;
+}
+.Wahana .JawabanWahana{
+    width: 50%;
+    height: auto;
+    float: center;
 }
 
 @media screen and (max-width: 600px){
@@ -89,36 +94,7 @@ body {
     }
 }
 
-.Wahana .TextWahana{
-    width: 50%;
-    float: right;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-weight: normal;
-    color: #FFF3F3;
-    background-color: cornflowerblue;
-    padding: 2% 1%;
-}
-@media screen and (max-width: 600px){
-    
-    .Wahana .TextWahana .NamaWahana{
-        line-height: 15px;
-        font-size: 150%;
-    }
-    
-  
 
-}
-@media screen and (min-width: 601px){
-
-    .Wahana .TextWahana .NamaWahana{
-        line-height: 25px;
-        font-size: 225%;
-    }
-    
-   
-
-}
 .JawabanWahana{
     display: flex;
     font-family: Segoe UI;
