@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: -webkit-linear-gradient(80deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+    background: -webkit-linear-gradient(90deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
     padding: 2.5% 0;
     margin-top: 18%;
     margin-left: auto;
@@ -69,6 +69,8 @@ body {
     margin-top: 18.5%;
 }
 
+
+
 .button .SignIn:hover{
     background-color: #005faf;
     color: #5cb4e5;
@@ -76,14 +78,15 @@ body {
 
 @media screen and (max-width: 600px){
     .button .SignIn {
-        background: -webkit-linear-gradient(97deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
+        background: -webkit-linear-gradient(90deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
         width: 140px;
         border-style: none;
         height: 40px;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 100%;  
+        font-size: 100%;
+        color: #FFF3F3;  
     }   
 }
 
@@ -97,6 +100,7 @@ body {
         font-style: normal;
         font-weight: normal;
         font-size: 125%;  
+        color: #FFF3F3;
     }   
 }
 
