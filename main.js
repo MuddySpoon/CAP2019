@@ -1,10 +1,14 @@
 var valUsername;
+var valDate;
 var database = firebase.database();
 var Username;
 var upperUsername;
+
 function submitClick(){
 
     Username = document.getElementById("Username").value;
+    valDate = date.getTime();
+    console.log("valDate");
 
     upperUsername = Username.toUpperCase();
     if(Username == ""){
@@ -20,7 +24,8 @@ function submitClick(){
 
 function writeUserData(){
     firebase.database().ref('users/' + valUsername).set({
-        UserID: valUsername
+        UserID: valUsername,
+        UserTime: valDate
     });
     localStorage.setItem("Username", Username);
 }
