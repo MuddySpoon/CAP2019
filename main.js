@@ -1,21 +1,19 @@
 var valUsername;
 var database = firebase.database();
 var Username;
-
+var upperUsername;
 function submitClick(){
 
     Username = document.getElementById("Username").value;
 
-    Username.value = string.toUpperCase();
+    upperUsername = Username.toUpperCase();
     if(Username == ""){
         alert("Username harus diisi!");
         return false;
     }
     else{
-        valUsername = Username;
+        valUsername = upperUsername;
         writeUserData(valUsername);
-
-        window.location = ("MainGame.html");
     }
 
 }
