@@ -22,4 +22,6 @@ var firebasegetUserID = firebase.database().ref().child("UserID");
 firebasegetUserID.on('value',  function(datasnapshot){
     getUserID.innerText = datasnapshot.valUsername();
 })
+
+console.log(getUserID);
 //document.getElementById("getUserID").innerHTML = firebase.database()     ;
