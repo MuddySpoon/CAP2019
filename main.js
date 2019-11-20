@@ -36,11 +36,12 @@ function submitClick(){
 }
 
 function writeUserData(){
-    firebase.database().ref('users/' + valUsername + valDate).set({
-        UserID: valUsername,
-        UserTime: valDate
-    });
-    localStorage.setItem("Username", Username);
+    // firebase.database().ref('users/' + valUsername).set({
+    //     UserID: valUsername,
+    //     UserTime: valDate
+    // });
+    // localStorage.setItem("Username", Username);
+    
 }
 
 
