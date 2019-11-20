@@ -4,8 +4,8 @@
     box-sizing: border-box;
   }
 body {
-    background: url(Background.jpg);
-    background-repeat: no-repeat;
+    background: url(Background.png);
+    background-repeat: round;
     background-position-x: center center;
     background-size: 100%;
     background-attachment: fixed;
