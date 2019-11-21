@@ -13,7 +13,7 @@ function checkWahanaCode(){
         Debug.log(wahanaCode[i])
         if(document.getElementById("KodeWahana").value == wahanaCode[i]){
             // window.location
-        }else if(){
+        }else{
             alert("Kode Wahana tidak terdaftar");
         }
     }
