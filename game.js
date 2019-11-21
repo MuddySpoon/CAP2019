@@ -26,7 +26,8 @@ function checkWahanaCode(){
     }
     switch(KodeWahana.value){
         case "022":
-            window.location.href("WaveRacer.html");
+            var linkWR = "WaveRacer.html";
+            window.location.href(linkWR);
             return false;
             break;
     }
