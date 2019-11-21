@@ -24,23 +24,23 @@ function checkWahanaCode(){
     }else{
         alert("Kode Wahana tidak cocok");
     //    Username = localStorage.get Item()
-        upperUsername = Username.toUpperCase();
+    //     upperUsername = Username.toUpperCase();
     }
     switch(KodeWahana.value){
     case "022":
         window.location.assign("/WaveRacer.html");
     break;
     case "101":
-        window.location.assign("https://cap2019.herokuapp.com/PacificRim.html");
+        window.location.assign("/PacificRim.html");
     break;
     case "303":
-        window.location.assign("https://cap2019.herokuapp.com/ScienceCenter.html");
+        window.location.assign("/ScienceCenter.html");
     break;
     case "440":
-        window.location.assign("https://cap2019.herokuapp.com/JurassicIsland.html");
+        window.location.assign("/JurassicIsland.html");
     break;
     case "500":
-        window.location.assign("https://cap2019.herokuapp.com/BatGlider.html");
+        window.location.assign("/BatGlider.html");
     break;
     }
     
