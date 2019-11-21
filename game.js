@@ -24,21 +24,19 @@ function checkWahanaCode(){
     }else{
         alert("Kode Wahana tidak cocok");
     }
-    var getlink;
     switch(KodeWahana.value){
     case "022":
         console.log (KodeWahana.value);
         // document.getElementById("btn").onclick = function(){
         //     location.assign ("WaveRacer.html");
         getlink = "WaveRacer.html";
-        window.location.assign(getlink);
+        window.location.assign("WaveRacer.html");
     break;
     case "101":
         console.log (KodeWahana.value);
         // document.getElementById("btn").onclick = function(){
         //     location.assign ("WaveRacer.html");
-        getlink = "PacificRim.html";
-        window.location.assign(getlink);
+        window.location.assign("PacificRim.html");
     break;
     }
     
