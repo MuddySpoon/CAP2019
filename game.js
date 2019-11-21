@@ -30,7 +30,7 @@ function checkWahanaCode(){
         // document.getElementById("btn").onclick = function(){
         //     location.assign ("WaveRacer.html");
         getlink = "WaveRacer.html";
-        window.location.assign("WaveRacer.html");
+        window.location.assign("https://www.google.com");
     break;
     case "101":
         console.log (KodeWahana.value);
