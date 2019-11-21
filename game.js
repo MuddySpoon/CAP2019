@@ -26,7 +26,7 @@ function checkWahanaCode(){
     }
     switch(KodeWahana.value){
         case "022":
-            console.log (KodeWahana);
+            console.log (KodeWahana.value);
             // document.getElementById("btn").onclick = function(){
             //     location.assign ("WaveRacer.html");
             
