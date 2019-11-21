@@ -12,9 +12,10 @@ function checkWahanaCode(){
     for (var i = 0; i < wahanaCode.length; i++){
         console.log(wahanaCode[i])
         if(document.getElementById("KodeWahana").value == wahanaCode[i]){
+            alert("Kode Wahana cocok");
             // window.location
         }else{
-            // alert("Kode Wahana tidak terdaftar");
+            alert("Kode Wahana tidak terdaftar");
         }
     }
 }
