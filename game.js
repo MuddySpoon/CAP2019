@@ -24,7 +24,6 @@ function checkWahanaCode(){
     }else{
         alert("Kode Wahana tidak cocok");
     }
-    var getlink;
     switch(KodeWahana.value){
         case "022":
             console.log (KodeWahana.value);
@@ -34,13 +33,13 @@ function checkWahanaCode(){
         break;
         case "101":
             console.log (KodeWahana.value);
-            getlink = "PacificRim.html"
             // document.getElementById("btn").onclick = function(){
             //     location.assign ("WaveRacer.html");
+            location.replace = "PacificRim.html";
+
         break;
     }
     
-    window.location.replace = getlink;
 }
 
 
