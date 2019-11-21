@@ -26,11 +26,13 @@ function checkWahanaCode(){
     }
     switch(KodeWahana.value){
         case "022":
-            document.getElementById("btn").onclick = function(){
-                location.assign ("WaveRacer.html");
+            console.log (KodeWahana);
+            // document.getElementById("btn").onclick = function(){
+            //     location.assign ("WaveRacer.html");
             }
         break;
     }
+
 }
 
 
