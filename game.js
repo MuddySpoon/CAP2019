@@ -24,13 +24,7 @@ function checkWahanaCode(){
     }else{
         alert("Kode Wahana tidak cocok");
     }
-    switch(KodeWahana.value){
-        case "022":
-            var linkWR = "WaveRacer.html";
-            window.location.href = linkWR;
-            return false;
-            break;
-    }
+    
 }
 
 
