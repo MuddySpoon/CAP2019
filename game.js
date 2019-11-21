@@ -31,15 +31,16 @@ function checkWahanaCode(){
         // document.getElementById("btn").onclick = function(){
         //     location.assign ("WaveRacer.html");
         getlink = "WaveRacer.html";
+        window.location.assign(getlink);
     break;
     case "101":
         console.log (KodeWahana.value);
         // document.getElementById("btn").onclick = function(){
         //     location.assign ("WaveRacer.html");
         getlink = "PacificRim.html";
+        window.location.assign(getlink);
     break;
     }
-    window.location.assign(getlink);
     
 }
 
