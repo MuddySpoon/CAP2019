@@ -30,8 +30,6 @@ function submitClick(){
         valDate = h + ":" + m + ":" + s;
         writeUserData(valUsername,valDate);
     }
-
-
 }
 
 function writeUserData(username, date){
@@ -41,8 +39,6 @@ function writeUserData(username, date){
         UserID: username,
         UserTime: date
     });
-
-
     localStorage.setItem("Username", username);
 }
 
