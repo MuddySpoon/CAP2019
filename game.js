@@ -29,7 +29,7 @@ function checkWahanaCode(){
             console.log (KodeWahana);
             // document.getElementById("btn").onclick = function(){
             //     location.assign ("WaveRacer.html");
-            }
+            
         break;
     }
 
