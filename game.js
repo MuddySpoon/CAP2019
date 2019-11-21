@@ -14,9 +14,10 @@ window.onload = function getUserID(){
     });
     console.log(childData);
 }
-console.log(getUserID);
+
 console.log(currUsername);
 getUserID.innerHTML = currUsername;
+console.log(getUserID);
 
 
 // var firebasegetUserID = firebase.database().ref('users/' + );
