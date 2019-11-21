@@ -29,7 +29,6 @@ function checkWahanaCode(){
         console.log (KodeWahana.value);
         // document.getElementById("btn").onclick = function(){
         //     location.assign ("WaveRacer.html");
-        getlink = "WaveRacer.html";
         window.location.assign("https://www.google.com");
     break;
     case "101":
