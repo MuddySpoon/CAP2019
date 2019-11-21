@@ -26,8 +26,6 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     </script>
-   
-}
     <script src="main.js"></script>
 </head>
     <body>
