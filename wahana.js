@@ -38,7 +38,7 @@ function submitjawaban(){
         if(valJawabanWahana == "1"){
             writeResult(valUserID, valKodeWahana, valDate);
             function writeResult (username, kodewahana, jamsubmit){
-                firebase.database().ref(kodewahana + username).set({
+                firebase.database().ref(kodewahana + '/' + username).set({
                     UserTime: jamsubmit,
                 });
             }
