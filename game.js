@@ -24,7 +24,7 @@ function checkWahanaCode(){
     }else{
         alert("Kode Wahana tidak cocok");
     }
-    var getlink
+    var getlink;
     switch(KodeWahana.value){
         case "022":
             console.log (KodeWahana.value);
@@ -34,7 +34,7 @@ function checkWahanaCode(){
             
         break;
     }
-    window.location.href = link;
+    window.location.href = getlink;
 }
 
 
