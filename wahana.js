@@ -29,8 +29,9 @@ function submitjawaban(){
         var m = addZero(d.getMinutes());
         var s = addZero(d.getSeconds());
         
-        var valUserID = localStorage.getItem("Username") + " " + localStorage.getItem("Kode Wahana");
-        // var valKodeWahana = localStorage.getItem("Kode Wahana");
+        var comUserID = localStorage.getItem("Username");
+        var comKodeWahana = localStorage.getItem("Kode Wahana");
+        var valUserID = comUserID + " " + comKodeWahana;
         var valJawabanWahana = localStorage.getItem("Jawaban Wahana");
         var valDate = h + ":" + m + ":" + s;
         writeResult(valUserID, valJawabanWahana, valDate);
