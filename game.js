@@ -9,15 +9,21 @@ console.log(currUsername);
 var wahanaCode = ["022", "101", "303", "440", "500"];
 
 function checkWahanaCode(){
-    
+    var isAccountExisting = false;
     for (var i = 0; i < wahanaCode.length; i++){
         console.log(wahanaCode[i])
+
         if(document.getElementById("KodeWahana").value === wahanaCode[i]){
-            alert("Kode Wahana cocok");
-            // window.location
-        }else{
-            alert("Kode Wahana tidak cocok");
+            isAccountExisting = true;
+            break
         }
+    }
+
+    if(isAccountExisting){
+        alert("Kode Wahana cocok");
+        window.location.href("MainForm.html")
+    }else{
+        alert("Kode Wahana tidak cocok");
     }
 }
 
