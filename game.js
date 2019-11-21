@@ -20,10 +20,9 @@ function checkWahanaCode(){
     }
 
     if(isAccountExisting){
-        alert("Kode wahana benar, silahkan tap ok dan tunggu beberapa saat")
+        alert("Kode wahana benar, silahkan tap ok dan tunggu beberapa saat");
     }else{
         alert("Kode Wahana tidak cocok");
-        localStorage.setItem("Username", currUsername);
     }
     switch(KodeWahana.value){
     case "022":
