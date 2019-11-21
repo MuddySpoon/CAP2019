@@ -13,9 +13,9 @@ function submitjawaban(){
     }
 
     if (ischeckRadio){
-        alert("Submit jawaban sukses");
+        alert("Submit jawaban sukses" + checkRadio[i].value);
         window.location.assign("/MainGame.html");
-
+        localStorage.setItem("Jawaban Wahana", checkRadio[i].value);
         // function writeUserData(username, date){
         
         //     firebase.database().ref('users/' + username).set({
