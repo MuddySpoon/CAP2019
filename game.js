@@ -40,7 +40,7 @@ function checkWahanaCode(){
         break;
     }
     
-    window.location = getlink;
+    window.location.replace = getlink;
 }
 
 
