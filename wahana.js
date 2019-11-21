@@ -32,7 +32,7 @@ function submitjawaban(){
         var valUserID = localStorage.getItem("Username");
         var valKodeWahana = localStorage.getItem("Kode Wahana");
         var valJawabanWahana = localStorage.getItem("Jawaban Wahana");
-        firebase.database().ref('wahana/' + username).set({
+        firebase.database().ref('wahana/' + valUsername).set({
             UserID: valUserID,
             UserWahana : valKodeWahana,
             UserJawaban : valJawabanWahana,
