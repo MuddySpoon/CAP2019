@@ -2,6 +2,13 @@ var database = firebase.database();
 
 var currUsername = localStorage.getItem("Username");
 
+function addZero(i) {
+    if (i < 10) {
+      i = "0" + i;
+    }
+    return i;
+}
+
 function submitjawaban(){
     var checkRadio = document.getElementsByTagName('input');
     var ischeckRadio = false;
@@ -13,17 +20,25 @@ function submitjawaban(){
     }
 
     if (ischeckRadio){
-        alert("Submit jawaban sukses" + checkRadio[i].value);
+        alert("Submit jawaban " + checkRadio[i].value + "  sukses");
         window.location.assign("/MainGame.html");
         localStorage.setItem("Jawaban Wahana", checkRadio[i].value);
-        // function writeUserData(username, date){
         
-        //     firebase.database().ref('users/' + username).set({
-        //         UserID: username,
-        //         UserTime: date
-        //     });
-        //     localStorage.setItem("Username", username);
-        // }
+        var d = new Date();
+        var h = addZero(d.getHours());
+        var m = addZero(d.getMinutes());
+        var s = addZero(d.getSeconds());
+        var valDate = h + ":" + m + ":" + s;
+        var valUserID = localStorage.getItem("Username");
+        var valKodeWahana = localStorage.getItem("Kode Wahana");
+        var valJawabanWahana = localStorage.getItem("Jawaban Wahana");
+        firebase.database().ref('wahana/' + username).set({
+            UserID: valUserID,
+            UserWahana : valKodeWahana,
+            UserJawaban : valJawabanWahana,
+            UserTime: valDate,
+        });
+
     }else{
         alert("Mohon pilih salah satu jawaban");
     }
