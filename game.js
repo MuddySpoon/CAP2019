@@ -27,18 +27,23 @@ function checkWahanaCode(){
     switch(KodeWahana.value){
     case "022":
         window.location.assign("/WaveRacer.html");
+        localStorage.setItem("Kode Wahana", KodeWahana.value);
     break;
     case "101":
         window.location.assign("/PacificRim.html");
+        localStorage.setItem("Kode Wahana", KodeWahana.value);
     break;
     case "303":
         window.location.assign("/ScienceCenter.html");
+        localStorage.setItem("Kode Wahana", KodeWahana.value);
     break;
     case "440":
         window.location.assign("/JurassicIsland.html");
+        localStorage.setItem("Kode Wahana", KodeWahana.value);
     break;
     case "500":
         window.location.assign("/BatGlider.html");
+        localStorage.setItem("Kode Wahana", KodeWahana.value);
     break;
     }
     
