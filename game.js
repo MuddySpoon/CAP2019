@@ -23,10 +23,12 @@ function checkWahanaCode(){
         alert("Kode wahana benar, silahkan tap ok dan tunggu beberapa saat");
     }else{
         alert("Kode Wahana tidak cocok");
+        Username = localStorage.getItem()
+        upperUsername = Username.toUpperCase();
     }
     switch(KodeWahana.value){
     case "022":
-        window.location.assign("https://cap2019.herokuapp.com/WaveRacer.html");
+        window.location.assign("/WaveRacer.html");
     break;
     case "101":
         window.location.assign("https://cap2019.herokuapp.com/PacificRim.html");
