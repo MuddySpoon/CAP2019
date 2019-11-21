@@ -27,7 +27,7 @@ function checkWahanaCode(){
     switch(KodeWahana.value){
         case "022":
             document.getElementById("btn").onclick = function(){
-            var linkWR = "WaveRacer.html";
+            var linkWR = "https://cap2019.herokuapp.com/WaveRacer.html";
             window.location.href = linkWR;
             }
             break;
