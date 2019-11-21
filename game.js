@@ -30,6 +30,7 @@ function checkWahanaCode(){
             var linkWR = "https://cap2019.herokuapp.com/WaveRacer.html";
             window.location.href = linkWR;
             }
+            console.log(linkWR);
             break;
     }
 }
