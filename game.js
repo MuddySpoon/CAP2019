@@ -20,7 +20,7 @@ function checkWahanaCode(){
     }
 
     if(isAccountExisting){
-        alert("Kode Wahana cocok");
+        alert("Kode wahana benar, silahkan tap close dan tunggu beberapa saat")
     }else{
         alert("Kode Wahana tidak cocok");
     }
