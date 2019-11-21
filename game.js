@@ -10,7 +10,7 @@ var wahanaCode = [022, 101, 303, 440, 500];
 
 function checkWahanaCode(){
     for (var i = 0; i < wahanaCode.length; i++){
-        Debug.log(wahanaCode[i])
+        console.log(wahanaCode[i])
         if(document.getElementById("KodeWahana").value == wahanaCode[i]){
             // window.location
         }else{
