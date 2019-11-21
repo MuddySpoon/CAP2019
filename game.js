@@ -16,7 +16,7 @@ window.onload = function getUserID(){
 }
 
 console.log(currUsername);
-document.getElementById("getUserID").innerHTML = currUsername + "adada";
+document.getElementById("getUserID").innerHTML = "Hello, "+currUsername;
 console.log(getUserID);
 
 
