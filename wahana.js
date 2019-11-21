@@ -29,20 +29,20 @@ function submitjawaban(){
         var m = addZero(d.getMinutes());
         var s = addZero(d.getSeconds());
         
-        var comUserID = localStorage.getItem("Username");
-        var comKodeWahana = localStorage.getItem("Kode Wahana");
-        var valUserID = comUserID + " " + comKodeWahana;
+        var valUserID = localStorage.getItem("Username");
+        var valKodeWahana = localStorage.getItem("Kode Wahana");
         var valJawabanWahana = localStorage.getItem("Jawaban Wahana");
         var valDate = h + ":" + m + ":" + s;
-        writeResult(valUserID, valJawabanWahana, valDate);
+        writeResult(valUserID, valKodeWahana, valDate);
         
-        function writeResult (username, jawabanwahana, jamsubmit){
-            firebase.database().ref('jawaban/' + username).set({
-                UserID: username,
-                UserJawaban : jawabanwahana,
-                UserTime: jamsubmit,
-            });
+        if(valJawabanWahana == "1"){
+            function writeResult (username, kodewahana, jamsubmit){
+                firebase.database().ref(kodewahana + username).set({
+                    UserTime: jamsubmit,
+                });
+            }
         }
+        
 
     }else{
         alert("Mohon pilih salah satu jawaban");
