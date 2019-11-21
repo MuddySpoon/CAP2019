@@ -15,10 +15,10 @@ window.onload = function getUserID(){
     console.log(childData);
 }
 console.log(getUserID);
-getUserID.innerHTML = localStorage.getItem("Username");
+getUserID.innerHTML = currUsername;
 
 
-// var firebasegetUserID = firebase.database().ref().child("UserID");
+// var firebasegetUserID = firebase.database().ref('users/' + );
 // firebasegetUserID.on('value',  function(datasnapshot){
 //     getUserID.innerText = datasnapshot.valUsername();
 // })
