@@ -26,16 +26,19 @@ function checkWahanaCode(){
     }
     switch(KodeWahana.value){
     case "022":
-        console.log (KodeWahana.value);
-        // document.getElementById("btn").onclick = function(){
-        //     location.assign ("WaveRacer.html");
-        window.location.assign("https://www.google.com");
+        window.location.assign("https://cap2019.herokuapp.com/WaveRacer.html");
     break;
     case "101":
-        console.log (KodeWahana.value);
-        // document.getElementById("btn").onclick = function(){
-        //     location.assign ("WaveRacer.html");
         window.location.assign("https://cap2019.herokuapp.com/PacificRim.html");
+    break;
+    case "303":
+        window.location.assign("https://cap2019.herokuapp.com/ScienceCenter.html");
+    break;
+    case "440":
+        window.location.assign("https://cap2019.herokuapp.com/JurassicIsland.html");
+    break;
+    case "500":
+        window.location.assign("https://cap2019.herokuapp.com/BatGlider.html");
     break;
     }
     
