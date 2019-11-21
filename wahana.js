@@ -33,9 +33,10 @@ function submitjawaban(){
         var valKodeWahana = localStorage.getItem("Kode Wahana");
         var valJawabanWahana = localStorage.getItem("Jawaban Wahana");
         var valDate = h + ":" + m + ":" + s;
-        writeResult(valUserID, valKodeWahana, valDate);
+        
         
         if(valJawabanWahana == "1"){
+            writeResult(valUserID, valKodeWahana, valDate);
             function writeResult (username, kodewahana, jamsubmit){
                 firebase.database().ref(kodewahana + username).set({
                     UserTime: jamsubmit,
