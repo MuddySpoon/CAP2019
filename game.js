@@ -23,8 +23,6 @@ function checkWahanaCode(){
         alert("Kode wahana benar, silahkan tap ok dan tunggu beberapa saat");
     }else{
         alert("Kode Wahana tidak cocok");
-    //    Username = localStorage.get Item()
-    //     upperUsername = Username.toUpperCase();
     }
     switch(KodeWahana.value){
     case "022":

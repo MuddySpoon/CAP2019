@@ -14,9 +14,7 @@ function submitjawaban(){
 
     if (ischeckRadio){
         alert("Submit jawaban sukses");
-        window.location.assign("https://cap2019.herokuapp.com/MainGame.html");
-
-        
+        window.location.assign("/MainGame.html");
     }else{
         alert("Mohon pilih salah satu jawaban");
     }
