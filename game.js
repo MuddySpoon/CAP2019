@@ -21,7 +21,8 @@ function checkWahanaCode(){
 
     if(isAccountExisting){
         alert("Kode Wahana cocok");
-        window.location.href("MainForm.html")
+        // localStorage
+        // window.location.href("https://cap2019.herokuapp.com/MainForm.html")
     }else{
         alert("Kode Wahana tidak cocok");
     }

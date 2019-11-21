@@ -39,20 +39,23 @@
             <p>Mohon tunggu selama "" detik</p>
         </div> -->
     </div>
-    <div class="InputData">
-        <div class="InputKodeWahana">
-            <input type="text" id="KodeWahana">
+    <form method="post" action="MainForm.html">
+        <div class="InputData">
+            <div class="InputKodeWahana">
+                <input type="text" id="KodeWahana">
+            </div>
+        </div> 
+        <div class="textAdditional">
+            <div class="InformasiKodeTambahan">
+                <p>Temukan dan masukan kode wahana sebelum mulai permainan ya! 
+                    Setiap wahana memiliki kode unik sendiri loh.</p>
+            </div>
         </div>
-    </div> 
-    <div class="textAdditional">
-        <div class="InformasiKodeTambahan">
-            <p>Temukan dan masukan kode wahana sebelum mulai permainan ya! 
-                Setiap wahana memiliki kode unik sendiri loh.</p>
+        <div class="button">
+            <input type="Submit" id="btn" class="Submit" value="REGISTER" onclick="checkWahanaCode()"></input>
         </div>
-    </div>
-    <div class="button">
-        <input type="Submit" id="btn" class="Submit" value="REGISTER" onclick="checkWahanaCode()"></input>
-    </div>
+    </form>
+    
     <script>
         document.getElementById("getUserID").innerText = "Halo, "+currUsername;
     </script>
