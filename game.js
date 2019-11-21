@@ -16,7 +16,7 @@ window.onload = function getUserID(){
 }
 
 console.log(currUsername);
-getUserID.innerHTML = currUsername;
+document.getElementById("getUserID").innerHTML = currUsername;
 console.log(getUserID);
 
 
