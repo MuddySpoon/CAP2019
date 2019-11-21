@@ -24,15 +24,17 @@ function checkWahanaCode(){
     }else{
         alert("Kode Wahana tidak cocok");
     }
+    var getlink
     switch(KodeWahana.value){
         case "022":
             console.log (KodeWahana.value);
+            getlink = "WaveRacer.html"
             // document.getElementById("btn").onclick = function(){
             //     location.assign ("WaveRacer.html");
             
         break;
     }
-
+    window.location.href = link;
 }
 
 
