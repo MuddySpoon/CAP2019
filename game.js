@@ -35,7 +35,7 @@ function checkWahanaCode(){
         console.log (KodeWahana.value);
         // document.getElementById("btn").onclick = function(){
         //     location.assign ("WaveRacer.html");
-        window.location.assign("PacificRim.html");
+        window.location.assign("https://cap2019.herokuapp.com/PacificRim.html");
     break;
     }
     
