@@ -25,6 +25,7 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     </script>
+    <script src="wahana.js"></script>
 </head>
 <body>
     <div class="text">
@@ -54,7 +55,7 @@
         </div>
     </div>
     <div class="button">
-            <input type="Submit" id="btn" class="Submit" value="SUBMIT"></input>
+            <input type="Submit" id="btn" class="Submit" value="SUBMIT" onclick="submitjawaban()"></input>
     </div>
     <script>
         document.getElementById("getUserID").innerText = "Halo, "+currUsername;
