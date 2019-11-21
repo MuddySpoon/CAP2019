@@ -21,10 +21,13 @@ function checkWahanaCode(){
 
     if(isAccountExisting){
         alert("Kode Wahana cocok");
-        // localStorage
-        // window.location.href("https://cap2019.herokuapp.com/MainForm.html")
     }else{
         alert("Kode Wahana tidak cocok");
+    }
+    switch(KodeWahana.value){
+        case "022":
+            window.location.href("WaveRacer.html");
+            break;
     }
 }
 
