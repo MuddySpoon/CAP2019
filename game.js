@@ -31,10 +31,10 @@ function checkWahanaCode(){
             getlink = "WaveRacer.html"
             // document.getElementById("btn").onclick = function(){
             //     location.assign ("WaveRacer.html");
-            
+            window.location = getlink;
         break;
     }
-    window.location.href = getlink;
+    
 }
 
 
