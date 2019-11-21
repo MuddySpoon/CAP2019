@@ -20,7 +20,7 @@ function submitjawaban(){
     }
 
     if (ischeckRadio){
-        alert("Submit jawaban " + checkRadio[i].value + "  sukses");
+        alert("Submit jawaban sukses");
         window.location.assign("/MainGame.html");
         localStorage.setItem("Jawaban Wahana", checkRadio[i].value);
         
@@ -28,16 +28,16 @@ function submitjawaban(){
         var h = addZero(d.getHours());
         var m = addZero(d.getMinutes());
         var s = addZero(d.getSeconds());
-        var valDate = h + ":" + m + ":" + s;
-        var valUserID = localStorage.getItem("Username");
-        var valKodeWahana = localStorage.getItem("Kode Wahana");
-        var valJawabanWahana = localStorage.getItem("Jawaban Wahana");
-        writeResult(valUserID, valKodeWahana, valJawabanWahana, valDate);
         
-        function writeResult (username, kodewahana, jawabanwahana, jamsubmit){
-            firebase.database().ref('wahana/' + username).set({
+        var valUserID = localStorage.getItem("Username") + " " + localStorage.getItem("Kode Wahana");
+        // var valKodeWahana = localStorage.getItem("Kode Wahana");
+        var valJawabanWahana = localStorage.getItem("Jawaban Wahana");
+        var valDate = h + ":" + m + ":" + s;
+        writeResult(valUserID, valJawabanWahana, valDate);
+        
+        function writeResult (username, jawabanwahana, jamsubmit){
+            firebase.database().ref('jawaban/' + username).set({
                 UserID: username,
-                UserWahana : kodewahana,
                 UserJawaban : jawabanwahana,
                 UserTime: jamsubmit,
             });
