@@ -35,7 +35,7 @@
             </div>
             <div class="InputData">
                 <div class="InputUsername">
-                    <input type="text" id="Username">
+                    <input type="text" id="Username" required>
                 </div>
             </div>
             <div class="InformasiTambahan">
