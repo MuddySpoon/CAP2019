@@ -33,7 +33,6 @@ function submitClick(){
 
         localStorage.setItem("Kunjungan Wahana", countWahana);
 
-        window.location.assign("/MainGame.html");
     }
 }
 

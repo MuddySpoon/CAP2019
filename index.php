@@ -29,7 +29,7 @@
     <script src="main.js"></script>
 </head>
     <body>
-        <form method="post" class="form">
+        <form method="post" class="form" action="MainGame.html">
             <div class="Informasi">
                 <p>MASUKKAN NOMOR ID</p>
             </div>
