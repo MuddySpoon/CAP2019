@@ -17,9 +17,11 @@ function submitClick(){
     Username = document.getElementById("Username").value;
     upperUsername = Username.toUpperCase();
 
+    var checkUsername = false;
+
+
     if(Username == ""){
-        alert("Username harus diisi!");
-        window.location.href;
+        checkUsername = true;
     }
     else{
         valUsername = upperUsername;
@@ -34,6 +36,10 @@ function submitClick(){
         localStorage.setItem("Kunjungan Wahana", countWahana);
 
         window.location.assign("/MainGame.html");
+    }
+
+    if(checkUsername){
+        alert("Username harus diisi!");
     }
 }
 
