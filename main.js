@@ -19,6 +19,7 @@ function submitClick(){
 
     if(Username == null){
         alert("Username harus diisi");
+        return false;
     }
     else{
         valUsername = upperUsername;
