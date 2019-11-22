@@ -19,7 +19,7 @@ function submitClick(){
 
     if(Username == ""){
         alert("Username harus diisi!");
-        return false;
+        break
     }
     else{
         valUsername = upperUsername;
@@ -32,7 +32,7 @@ function submitClick(){
         writeUserData(valUsername,valDate);
 
         localStorage.setItem("Kunjungan Wahana", countWahana);
-        
+
         window.location.assign("/MainGame.html");
     }
 }
