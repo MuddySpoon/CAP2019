@@ -17,8 +17,7 @@ function submitClick(){
     Username = document.getElementById("Username").value;
     upperUsername = Username.toUpperCase();
 
-   
-    if(Username == ""){
+    if(Username == null){
         alert("Username harus diisi");
     }
     else{
