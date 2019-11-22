@@ -1,6 +1,7 @@
 var database = firebase.database();
 
 var currUsername = localStorage.getItem("Username");
+var countWahana = 0;
 
 function addZero(i) {
     if (i < 10) {
@@ -21,7 +22,15 @@ function submitjawaban(){
 
     if (ischeckRadio){
         alert("Submit jawaban sukses");
-        window.location.assign("/MainGame.html");
+
+        countWahana += 1;
+        localStorage.setItem("Kunjungan Wahana", countWahana.value);
+        if(countWahana <5){
+            window.location.assign("/MainGame.html");
+        }else{
+            window.location.assign("/Congratulation.html");
+        }
+        
         localStorage.setItem("Jawaban Wahana", checkRadio[i].value);
         
         var d = new Date();
@@ -44,7 +53,6 @@ function submitjawaban(){
             }
         }
         
-
     }else{
         alert("Mohon pilih salah satu jawaban");
     }

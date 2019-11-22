@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Main Menu</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="Main Menu.css">
     <link rel="stylesheet" href="bootstrap.css">
     
