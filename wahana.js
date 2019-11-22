@@ -25,9 +25,9 @@ function submitjawaban(){
 
         countWahana += 1;
         localStorage.setItem("Kunjungan Wahana", countWahana);
-        if(countWahana < 5){
+        if(countWahana != "011111"){
             window.location.assign("/MainGame.html");
-        }else if(countWahana == 5){
+        }else if(countWahana == 011111){
             window.location.assign("/Congratulation.html");
         }
         
