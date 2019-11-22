@@ -27,7 +27,7 @@ function submitjawaban(){
         
         if(countWahana < 5){
             window.location.assign("/MainGame.html");
-        }else{
+        }else if(countWahana == 5){
             window.location.assign("/Congratulation.html");
         }
         
