@@ -3,6 +3,7 @@ var valDate;
 var database = firebase.database();
 var Username;
 var upperUsername;
+var countWahana = 0;
 
 function addZero(i) {
     if (i < 10) {
@@ -29,6 +30,10 @@ function submitClick(){
         var s = addZero(d.getSeconds());
         valDate = h + ":" + m + ":" + s;
         writeUserData(valUsername,valDate);
+
+        localStorage.setItem("Kunjungan Wahana", countWahana);
+        
+        window.location.assign("/MainGame.html");
     }
 }
 

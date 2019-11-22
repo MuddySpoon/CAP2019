@@ -1,7 +1,7 @@
 var database = firebase.database();
 
 var currUsername = localStorage.getItem("Username");
-var countWahana = 0;
+var countWahana = localStorage.getItem("Kunjungan Wahana");
 
 function addZero(i) {
     if (i < 10) {
@@ -24,8 +24,8 @@ function submitjawaban(){
         alert("Submit jawaban sukses");
 
         countWahana += 1;
-        localStorage.setItem("Kunjungan Wahana", countWahana);
-        if(countWahana <5){
+        
+        if(countWahana < 5){
             window.location.assign("/MainGame.html");
         }else{
             window.location.assign("/Congratulation.html");
