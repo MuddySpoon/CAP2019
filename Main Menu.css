@@ -75,11 +75,11 @@ body {
 
 
 .InputData ::selection{
-    background: darkslategray;
+    background: #99CCFF ;
 }
 
 .InputData ::-moz-selection{
-    background: darkslategray;
+    background: #99CCFF;
 }
 
 .InputData .InputUsername input[type=text]{ 
