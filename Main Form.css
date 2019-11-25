@@ -143,6 +143,7 @@ body {
     .button .Submit {
         background: -webkit-linear-gradient(270deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
         color: #FFF3F3;
+        border-radius: 10px;
         width: 140px;
         border-style: none;
         height: 40px;
@@ -158,6 +159,7 @@ body {
     .button .Submit {
         background: -webkit-linear-gradient(270deg, rgba(7,98,174,1) 0%, rgba(7,15,84,1) 51%);
         color: #FFF3F3;
+        border-radius: 10px;
         width: 280px;
         border-style: none;
         height: 80px;    
