@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CAP 2019</title>
-    <link rel="stylesheet" href="Main Game.css">
+    <title>Wave Racer</title>
+    <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="bootstrap.css">
     <script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
     <script src='https://www.gstatic.com/firebasejs/7.4.0/firebase-database.js'></script>
@@ -25,31 +25,38 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     </script>
-    <script src="game.js"></script>
+    <script src="test.js"></script>
 </head>
 <body>
-    <div class="text"> 
-        <div class="Greetings" >
-            <p id="getUserID">Halo, </p>
+    <div class="text">
+        <div class="Greetings">
+            <p class="GreetingsText" id="getUserID"></p>
         </div>
-        <div class="InformasiKode">
-            <p>MASUKKAN KODE WAHANA</p>
+        <div class="informasi">
+            <p>INI PERTANYAAN TEST</p>
         </div>
     </div>
-        <div class="InputData">
-            <div class="InputKodeWahana">
-                <input type="text" id="KodeWahana">
-            </div>
-        </div> 
-        <div class="textAdditional">
-            <div class="InformasiKodeTambahan">
-                <p>Temukan dan masukan kode wahana sebelum mulai permainan ya! 
-                    Setiap wahana memiliki kode unik sendiri loh.</p>
-            </div>
+    
+    <div class="Wahana">
+        <div class="FotoWahana">
+            <img src="quiz.jpeg" alt="Foto Wahana">
         </div>
-        <div class="button">
-            <input type="Submit" id="btn" class="Submit" value="SUBMIT" onclick="checkWahanaCode()"></input>
+        <div class="JawabanWahana">
+            <p style="text-align: center;  margin-bottom: 0px;">Jawaban</p><br>
+            <label class="Jawaban" for="JawabanA">
+                <input type="radio" name="Jawaban" class="Jawaban" id="A" value="0">A
+            </label>
+            <label class="Jawaban" for="JawabanB">
+                <input type="radio" name="Jawaban" class="Jawaban" id="B" value="1">B
+            </label>
+            <label class="Jawaban" for="JawabanC">
+                <input type="radio" name="Jawaban" class="Jawaban" id="C" value="0">C
+            </label>
         </div>
+    </div>
+    <div class="button">
+            <input type="Submit" id="btn" class="Submit" value="SUBMIT" onclick="submitjawaban()"></input>
+    </div>
     <script>
         document.getElementById("getUserID").innerText = "Halo, "+currUsername;
     </script>

@@ -5,7 +5,7 @@ var childData;
 var currUsername = localStorage.getItem("Username");
 console.log(currUsername);
 
-var wahanaCode = ["022", "101", "303", "440", "500"];
+var wahanaCode = ["022", "101", "303", "440", "500", "123"];
 
 function checkWahanaCode(){
     var isAccountExisting = false;
@@ -42,6 +42,10 @@ function checkWahanaCode(){
     break;
     case "500":
         window.location.assign("/BatGlider.html");
+        localStorage.setItem("Kode Wahana", KodeWahana.value);
+    break;
+    case "123":
+        window.location.assign("/TestWahana.html");
         localStorage.setItem("Kode Wahana", KodeWahana.value);
     break;
     }
