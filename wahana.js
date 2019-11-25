@@ -3,6 +3,10 @@ var database = firebase.database();
 var currUsername = localStorage.getItem("Username");
 var countWahana = localStorage.getItem("Kunjungan Wahana");
 
+if(localStorage.getItem("Username") = null){
+    window.location.assign("https://cap2019.herokuapp.com")
+}
+
 function addZero(i) {
     if (i < 10) {
       i = "0" + i;

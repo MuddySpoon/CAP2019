@@ -7,6 +7,10 @@ console.log(currUsername);
 
 var wahanaCode = ["022", "101", "303", "440", "500", "123"];
 
+if(localStorage.getItem("Username") = null){
+    window.location.assign("https://cap2019.herokuapp.com")
+}
+
 function checkWahanaCode(){
     var isAccountExisting = false;
     for (var i = 0; i < wahanaCode.length; i++){
