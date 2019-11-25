@@ -3,7 +3,6 @@ var valDate;
 var database = firebase.database();
 var Username;
 var upperUsername;
-var countWahana = 0;
 
 function addZero(i) {
     if (i < 10) {

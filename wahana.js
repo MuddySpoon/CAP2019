@@ -23,13 +23,8 @@ function submitjawaban(){
     if (ischeckRadio){
         alert("Submit jawaban sukses");
 
-        countWahana += 1;
-        localStorage.setItem("Kunjungan Wahana", countWahana);
-        if(countWahana != "011111"){
-            window.location.assign("/MainGame.html");
-        }else if(countWahana == "011111"){
-            window.location.assign("/Congratulation.html");
-        }
+        window.location.assign("/MainGame.html");
+        
         
         localStorage.setItem("Jawaban Wahana", checkRadio[i].value);
         
