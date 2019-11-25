@@ -30,8 +30,6 @@ function submitClick(){
         valDate = h + ":" + m + ":" + s;
         writeUserData(valUsername,valDate);
 
-        localStorage.setItem("Kunjungan Wahana", countWahana);
-
     }
 }
 
